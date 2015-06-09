@@ -23,3 +23,13 @@ compile 'com.android.support:recyclerview-v7:21.0.+'
 
 - Add one `TextView` to the layout.
 
+## Create the `ItemModel` class
+
+This class is a basic model.
+
+
+
+## Create the `MyRecyclerViewAdapter` class
+
+- Create a new class named `MyRecyclerViewAdapter`.
+- Update the class declaration with `extends RecyclerView.Adapter<MyAdapter.ViewHolder>`.
