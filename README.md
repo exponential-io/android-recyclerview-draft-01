@@ -19,3 +19,7 @@ compile 'com.android.support:recyclerview-v7:21.0.+'
 - Delete the default `TextView`.
 - Add a `android.support.v7.widget.RecyclerView` element.
 
+## Create the `recycler_view_item.xml` layout
+
+- Add one `TextView` to the layout.
+
