@@ -1,2 +1,5 @@
-# android-recyclerview
-Learn the Android RecyclerView
+# Android RecyclerView
+
+Example project to learn the Android RecyclerView.
+
+-
