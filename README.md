@@ -34,3 +34,14 @@ The adapter takes one item from a list of items and inserts into into one item l
 
 - Create a new class named `MyRecyclerViewAdapter`.
 - Update the class declaration with `extends RecyclerView.Adapter<MyAdapter.ViewHolder>`.
+
+## Use the `RecyclerView` in `MainActivity`
+
+- Create 3 private members:
+    - `private RecyclerView recyclerView;`
+    - `private RecyclerView.Adapter adapter;`
+    - `private RecyclerView.LayoutManager layoutManager;`
+- Create a fake dataset.
+- Get a reference to the RecyclerView element in the Activity's layout
+- Create the layout manager
+- Create the adapter

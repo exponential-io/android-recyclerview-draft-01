@@ -62,11 +62,14 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
      * Store the id of each View that will have an item member's value inserted into it.
      */
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView titleTextView;
+        private TextView titleTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
+            // Note: Initially the R.id.title pointed to an id that did not exist. However, the
+            // error was not visible until runtime when onBindViewHolder threw a null pointer
+            // exception because titleTextView was null.
             titleTextView = (TextView) itemView.findViewById(R.id.title);
         }
     }
